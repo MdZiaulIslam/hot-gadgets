@@ -1,0 +1,147 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 13px;
+    color: dimgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#navbarNav li a{
+    font-size: 15px;
+    border-width: 1px;
+    transition: border-width ;
+}
+#navbarNav li a:hover{
+    color: orange;
+    font-weight: 700;
+    border-width: 100%;
+    border-bottom: 02px solid orange;
+    transition: ;
+}
+.carousel-bg{
+    
+    border-radius:10px;
+
+}
+.dot-bg{
+    float: left;
+    position: relative;
+    bottom: 150px;
+    left: 80px;
+    width: 150px;
+}
+.bestproduct-bg{
+    float: left;
+    position: relative;
+    bottom: 510px;
+    left: 510px;
+    width: 60px;
+}
+.buy-now-btn{
+    background-image: linear-gradient(to left, rgb(80, 80, 80) , rgb(19, 18, 18) );
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 35px ;
+    margin-top: 50px;
+}
+h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.card{
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px lightgray
+
+}
+.card img{
+    width:75%
+}
+#categories div{
+
+}
+#categories img{
+    width: 75%;
+}
+.v-center{
+    margin:auto;
+}
+
+}
+.box-shadow{
+    box-shadow: 5px 5px 10px gray 0%;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.card h5{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    position: relative;
+}
+#categories{
+    margin-top: 100px;
+    padding: 20px 20px;
+    margin-bottom: 150px;
+}
+#categories .card{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 20px 0px 20px;
+}
+.cat-style{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+hr{
+    border: 4px solid orange;
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+h6{
+    color: orange;
+    font-weight: 700;
+    position: relative;
+    bottom:60px;
+}
+
+/* 
+    .carousel-indicators li {
+background-color: #CECECE;
+width: 12px;
+height: 10px;
+border-radius: 10px;
+}
+.carousel-indicators li.active {
+width: 30px;
+background: linear-gradient(142deg, #FF9C35 0%, #FFD019 100%);
+border-radius: 25%;
+}
+*/
+footer{
+    text-align: center;
+    margin: 40px auto;
+}
